@@ -14,7 +14,6 @@ import com.itismob.s02.mco2.group7.budgetbuddy.utils.Categories;
 
 public class FilterExpensesActivity extends AppCompatActivity {
 
-    // Keys + values used to send the filter back to ExpensesFragment
     public static final String EXTRA_CATEGORY = "EXTRA_CATEGORY";
     public static final String EXTRA_DATE = "EXTRA_DATE";
     public static final int DATE_ALL = 0;
