@@ -33,7 +33,7 @@ public class AddEditBudgetActivity extends AppCompatActivity {
     private TextInputEditText limitEt, startEt, endEt;
     private MaterialButton saveBtn, deleteBtn;
 
-    private Budget editing;          // null = creating a new budget
+    private Budget editing;          
     private String period = "Monthly";
     private long startDate = Periods.monthStart();
     private long endDate;
